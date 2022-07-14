@@ -39,25 +39,16 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/profile_image"
-                    android:layout_width="84dp"
-                    android:layout_height="84dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:src="@drawable/profile_pic" />
-
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="4dp"
-                    android:fontFamily="@font/calibri"
-                    android:text="Shashank Singhal"
-                    android:textColor="#000000"
-                    android:textSize="18sp" />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/calibri"
+                        android:text="Brikelda Licaj"
+                        android:textColor="#000000"
+                        android:textSize="18sp"/>
 
                 <TextView
                     android:layout_width="match_parent"

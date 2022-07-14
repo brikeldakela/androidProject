@@ -12,35 +12,35 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".Main5Activity"
-            android:label=""
-            android:screenOrientation="portrait"
-            android:theme="@style/MyAppTheme"
-            android:windowSoftInputMode="stateHidden|adjustPan"/>
+                android:name=".Main5Activity"
+                android:label=""
+                android:screenOrientation="portrait"
+                android:theme="@style/MyAppTheme"
+                android:windowSoftInputMode="stateHidden|adjustPan" tools:ignore="Instantiatable"/>
         <activity
-            android:name=".Main4Activity"
-            android:label=""
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustPan" />
+                android:name=".Main4Activity"
+                android:label=""
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan" tools:ignore="Instantiatable"/>
         <activity
-            android:name=".Main3Activity"
-            android:label=""
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustPan" />
+                android:name=".Main3Activity"
+                android:label=""
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan" tools:ignore="Instantiatable"/>
         <activity
-            android:name=".Main2Activity"
-            android:label=""
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustPan" />
+                android:name=".Main2Activity"
+                android:label=""
+                android:screenOrientation="fullSensor"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan" tools:ignore="Instantiatable"/>
         <activity
-            android:name=".MainActivity"
-            android:label=""
-            android:screenOrientation="portrait"
-            android:theme="@style/MyAppTheme"
-            android:windowSoftInputMode="stateHidden|adjustPan">
+                android:name=".MainActivity"
+                android:label=""
+                android:screenOrientation="portrait"
+                android:theme="@style/MyAppTheme"
+                android:windowSoftInputMode="stateHidden|adjustPan" tools:ignore="Instantiatable">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
